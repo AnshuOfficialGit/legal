@@ -1,0 +1,128 @@
+/* Existing Styles */
+.img-con {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 400px;
+    /* Adjust based on your design */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.desc {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
+.advocate-card {
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px auto;
+}
+
+.advocate-image {
+    width: 220px;
+    height: 329px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.advocate-card2 {
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+.advocate-image2 {
+    /* width: 220px; */
+    height: 381px;
+    background-size: cover;
+    background-position: center;
+    /* border-radius: 50%; */
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.advocate-details {
+    padding: 20px;
+}
+
+.advocate-name {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.advocate-qualification,
+.advocate-phone {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.advocate-phone a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.advocate-phone a:hover {
+    text-decoration: underline;
+}
+
+
+
+.navText {
+    color: black;
+}
+
+.advocate-image3 {
+    width: 130px;
+    height: 137px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+@media (max-width: 991.98px) {
+    .navText {
+        color: #eac15a;
+    }
+
+    .advocate-image2 {
+        /* width: 220px; */
+        height: 192px;
+        background-size: cover;
+        background-position: center;
+        /* border-radius: 50%; */
+        margin: 20px auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .advocate-image3 {
+        width: 30px;
+        height: 30px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+    }
+
+}
