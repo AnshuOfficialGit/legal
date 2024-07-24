@@ -29,7 +29,7 @@ const resources = {
             "Benefit from our competitive and discounted rates for all legal services.": "Benefit from our competitive and discounted rates for all legal services.",
             "Let our experts meticulously review and analyze your case documents.": "Let our experts meticulously review and analyze your case documents.",
             "Did you know? The longest legal battle in history lasted over 120 years! Legal matters can be complex, so expert advice is essential.": "Did you know? The longest legal battle in history lasted over 120 years! Legal matters can be complex, so expert advice is essential.",
-            "Hello, my name is Adv. Praveen Kumar Tripathi. I have been practicing law since 2008, providing expert legal advice and representation in various fields. With over 15 years of experience, I am committed to helping you navigate the complexities of the legal system.": "Hello, my name is Adv. Praveen Kumar Tripathi. I have been practicing law since 2008, providing expert legal advice and representation in various fields. With over 15 years of experience, I am committed to helping you navigate the complexities of the legal system.",
+            "Hello, my name is Adv. Praveen Kumar Tripathi. I have been practicing law since 2012, providing expert legal advice and representation in various fields. With over 12 years of experience, I am committed to helping you navigate the complexities of the legal system.": "Hello, my name is Adv. Praveen Kumar Tripathi. I have been practicing law since 2012, providing expert legal advice and representation in various fields. With over 12 years of experience, I am committed to helping you navigate the complexities of the legal system.",
             "Your Own Partner": "Your Own Partner",
             "Family Law: Expert guidance on divorce, custody, and family disputes to protect your rights.": "Family Law: Expert guidance on divorce, custody, and family disputes to protect your rights.",
             "Business Law: Comprehensive legal solutions for businesses, including contracts and compliance.": "Business Law: Comprehensive legal solutions for businesses, including contracts and compliance.",
@@ -71,7 +71,7 @@ const resources = {
             "Collaborate with experienced lawyers to ensure the best legal outcomes.": "सर्वोत्तम कानूनी परिणाम सुनिश्चित करने के लिए अनुभवी वकीलों के साथ सहयोग करें।",
             "Benefit from our competitive and discounted rates for all legal services.": "सभी कानूनी सेवाओं के लिए हमारी प्रतिस्पर्धात्मक और रियायती दरों का लाभ उठाएं।",
             "Let our experts meticulously review and analyze your case documents.": "हमारे विशेषज्ञों से अपने मामले के दस्तावेजों की बारीकी से समीक्षा और विश्लेषण करवाएं।",
-            "Hello, my name is Adv. Praveen Kumar Tripathi. I have been practicing law since 2008, providing expert legal advice and representation in various fields. With over 15 years of experience, I am committed to helping you navigate the complexities of the legal system.": "नमस्ते, मेरा नाम एडवोकेट है। Adv. Praveen Kumar Tripathi. मैं 2008 से कानून का अभ्यास कर रहा हूं, विभिन्न क्षेत्रों में विशेषज्ञ कानूनी सलाह और प्रतिनिधित्व प्रदान कर रहा हूं। 15 वर्षों से अधिक अनुभव के साथ, मैं कानूनी प्रणाली की जटिलताओं से निपटने में आपकी मदद करने के लिए प्रतिबद्ध हूं।",
+            "Hello, my name is Adv. Praveen Kumar Tripathi. I have been practicing law since 2012, providing expert legal advice and representation in various fields. With over 12 years of experience, I am committed to helping you navigate the complexities of the legal system.": "नमस्ते, मेरा नाम   Adv. Praveen Kumar Tripathi है। मैं 2012 से कानून का अभ्यास कर रहा हूं, विभिन्न क्षेत्रों में विशेषज्ञ कानूनी सलाह और प्रतिनिधित्व प्रदान कर रहा हूं। 12 वर्षों से अधिक अनुभव के साथ, मैं कानूनी प्रणाली की जटिलताओं से निपटने में आपकी मदद करने के लिए प्रतिबद्ध हूं।",
             "Your Own Partner": "आपका अपना साथी",
             "Family Law: Expert guidance on divorce, custody, and family disputes to protect your rights.": "परिवार कानून: तलाक, अभिरक्षा, और पारिवारिक विवादों में आपके अधिकारों की रक्षा के लिए विशेषज्ञ मार्गदर्शन।",
             "Business Law: Comprehensive legal solutions for businesses, including contracts and compliance.": "व्यवसाय कानून: व्यवसायों के लिए व्यापक कानूनी समाधान, जिसमें अनुबंध और अनुपालन शामिल हैं।",
@@ -119,7 +119,7 @@ function updateContent() {
     document.getElementById('work_with').innerHTML = i18next.t('Collaborate with experienced lawyers to ensure the best legal outcomes.');
     document.getElementById('benefits').innerHTML = i18next.t('Benefit from our competitive and discounted rates for all legal services.');
     document.getElementById('case_document').innerHTML = i18next.t('Let our experts meticulously review and analyze your case documents.');
-    document.getElementById('fun_fact').innerHTML = i18next.t('Hello, my name is Adv. Praveen Kumar Tripathi. I have been practicing law since 2008, providing expert legal advice and representation in various fields. With over 15 years of experience, I am committed to helping you navigate the complexities of the legal system.');
+    document.getElementById('fun_fact').innerHTML = i18next.t('Hello, my name is Adv. Praveen Kumar Tripathi. I have been practicing law since 2012, providing expert legal advice and representation in various fields. With over 12 years of experience, I am committed to helping you navigate the complexities of the legal system.');
     document.getElementById('yop').innerHTML = i18next.t('Your Own Partner');
     document.getElementById('fld').innerHTML = i18next.t('Family Law: Expert guidance on divorce, custody, and family disputes to protect your rights.');
     document.getElementById('bld').innerHTML = i18next.t('Business Law: Comprehensive legal solutions for businesses, including contracts and compliance.');
@@ -127,7 +127,7 @@ function updateContent() {
     document.getElementById('cld').innerHTML = i18next.t('Criminal Law: Strong defense and legal representation in criminal matters.');
     document.getElementById('pld').innerHTML = i18next.t('Property Law: Assistance with real estate transactions, disputes, and property rights.');
     document.getElementById('eld').innerHTML = i18next.t('Employment Law: Protect your workplace rights with expert employment law services.');
-    document.getElementById('fld').innerHTML = i18next.t('Fire Accident: Legal support and compensation claims for fire-related incidents.');
+    document.getElementById('firld').innerHTML = i18next.t('Fire Accident: Legal support and compensation claims for fire-related incidents.');
     document.getElementById('fild').innerHTML = i18next.t('Financial Law: Expertise in financial regulations, compliance, and disputes.');
     document.getElementById('dod').innerHTML = i18next.t('Drug Offenses: Defend against drug charges with experienced legal representation.');
     document.getElementById('sod').innerHTML = i18next.t('Sexual Offenses: Compassionate and strong defense in sexual offense cases.');

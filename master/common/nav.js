@@ -5,7 +5,7 @@ function nav() {
          <div class="advocate-image3" style="background-image: url('./master/inc/images/adv1.jpg');">
                         </div>
             <div class="container">
-            <a class="navbar-brand " href="index-2.html">
+            <a class="navbar-brand " href="javascript:void(0)">
                 <span class="text-dark navText" >
                  
                 Adv. Praveen Kumar Tripathi</span>
@@ -16,7 +16,7 @@ function nav() {
             </button>
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a href="index-2.html" class="nav-link">Home</a></li>
+                <li class="nav-item active"><a href="javascript:void(0)" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
                 <li class="nav-item"><a href="#pactise_areas" class="nav-link">Practice Areas</a></li>
                

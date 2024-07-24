@@ -7,6 +7,9 @@
     /* Adjust based on your design */
 }
 
+
+
+
 .overlay {
     position: absolute;
     top: 0;
@@ -102,6 +105,14 @@
     border-radius: 50%;
 }
 
+.banner_image {
+    background-image: url('../images/bg_1.jpg');
+    height: 293px;
+    background-position: 50% 0%;
+}
+
+
+
 @media (max-width: 991.98px) {
     .navText {
         color: #eac15a;
@@ -123,6 +134,27 @@
         background-size: cover;
         background-position: center;
         border-radius: 50%;
+    }
+
+    .banner_image {
+        background-image: url('../images/bg_1.jpg');
+        height: 293px !important;
+        background-position: 50% 0%;
+    }
+
+    .banner_text {
+        height: 380px !important;
+    }
+
+    .slider-text .subheading {
+        font-size: 18px;
+        font-style: italic;
+        color: #eac15a;
+    }
+
+    .slider-text h1 {
+        font-size: 40px;
+        color: #eac15a;
     }
 
 }

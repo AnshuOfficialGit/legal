@@ -73,9 +73,8 @@ function footer() {
                 Copyright &copy;
                 <script data-cfasync="false"
                   src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-                <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with
-                <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com/"
-                  target="_blank">Colorlib</a>
+                <script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com/"
+                  target="_blank">Designed & Developed By Anshu Sharma</a>
               </p>
             </div>
           </div>

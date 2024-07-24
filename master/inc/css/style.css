@@ -2628,7 +2628,7 @@ h4,
 .practice-area {
   display: block;
   margin-bottom: 30px;
-  border-radius: 61px 0px;
+  border-radius: 25px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
